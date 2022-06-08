@@ -23,7 +23,7 @@ public class RateFeignClientTest {
     private final static String CURRENCY = "RUB";
     private final static String YESTERDAY_DATE = "2022-06-07";
     private final static String CURRENT_DATE = "2022-06-08";
-    private final static Double CURRENT_RATE = 60.249003;
+    private final static Double CURRENT_RATE = 60.500002;
     private final static Double YESTERDAY_RATE = 61.749995;
 
     @Autowired
