@@ -34,14 +34,6 @@ public class RateFeignClientTest {
         assertFalse(rateFeignClient.getCurrentRubRate().getRates().isEmpty());
     }
 
-    /**
-     * Проверка курса на 08/06/2022 14:55
-     * 60.025001
-     */
-    @Test
-    public void gotCurrentRubRateEqualsRightRate() {
-        assertEquals(rateFeignClient.getSpecifiedDateRubRate(CURRENT_DATE).getRates().get(CURRENCY), CURRENT_RATE);
-    }
 
     /**
      * Проверка курса даты 07/06/2022
