@@ -1,4 +1,3 @@
 # RESTServiceExchangeRates
-We get the ruble-dollar exchange rate, 
-and If the rate went up, then output a random gif from the site https://giphy.com/search/rich,
-else if rate went down, then output a random gif from the site https://giphy.com/search/broke
+Получаем курс рубля к доллару, и eсли курс вырос, то выводим случайную гифку с сайта https://giphy.com/search/rich
+, если курс упал, то выводим случайную гифку с сайта https://giphy.com/search/broke.
